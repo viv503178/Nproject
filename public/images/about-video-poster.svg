@@ -1,0 +1,6 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Video poster placeholder">
+  <rect width="640" height="360" fill="#0f2a4a"/>
+  <circle cx="320" cy="180" r="46" fill="#ffffff" opacity="0.92"/>
+  <path d="M308 158 L350 180 L308 202 Z" fill="#0f2a4a"/>
+  <text x="320" y="270" font-family="Arial, sans-serif" font-size="18" fill="#e7edf5" text-anchor="middle">Corporate Introduction Video</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="1600" height="600" viewBox="0 0 1600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Home loan banner">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2a4a"/>
+      <stop offset="100%" stop-color="#1d5a96"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="600" fill="url(#g1)"/>
+  <g opacity="0.18" stroke="#ffffff" stroke-width="2">
+    <path d="M100 600 L100 420 L260 320 L420 420 L420 600" fill="none"/>
+    <path d="M1180 600 L1180 380 L1380 250 L1580 380 L1580 600" fill="none"/>
+  </g>
+  <g transform="translate(720,210)" fill="#ffffff" opacity="0.9">
+    <path d="M120 90 L0 170 L0 320 L80 320 L80 220 L160 220 L160 320 L240 320 L240 170 Z" fill="#c99a3e"/>
+  </g>
+  <text x="80" y="270" font-family="Georgia, serif" font-size="58" font-weight="700" fill="#ffffff">Home Loans</text>
+  <text x="80" y="320" font-family="Arial, sans-serif" font-size="28" fill="#e7edf5">Starting at 8.45% p.a. &#8226; Quick approval &#8226; Doorstep service</text>
+</svg>

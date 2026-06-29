@@ -1,0 +1,10 @@
+<svg width="220" height="56" viewBox="0 0 220 56" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sanmitra Co-operative Bank Ltd. logo">
+  <rect width="220" height="56" fill="none"/>
+  <g transform="translate(0,4)">
+    <path d="M24 2 L44 10 V24 C44 36 35 44 24 48 C13 44 4 36 4 24 V10 Z" fill="#0f2a4a"/>
+    <path d="M24 8 L38 14 V24 C38 33 31 39 24 42 C17 39 10 33 10 24 V14 Z" fill="#c99a3e"/>
+    <text x="24" y="29" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">S</text>
+  </g>
+  <text x="58" y="24" font-family="Georgia, serif" font-size="19" font-weight="700" fill="#0f2a4a">Sanmitra</text>
+  <text x="58" y="40" font-family="Arial, sans-serif" font-size="10.5" letter-spacing="1.5" fill="#51606e">CO-OPERATIVE BANK LTD.</text>
+</svg>

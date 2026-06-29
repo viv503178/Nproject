@@ -1,0 +1,130 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: var(--color-navy-900);
+}
+
+.viewport {
+  width: 100%;
+  aspect-ratio: 16 / 6;
+  overflow: hidden;
+}
+
+@media (max-width: 700px) {
+  .viewport {
+    aspect-ratio: 4 / 5;
+  }
+}
+
+.track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /* This is the "moving slideshow" effect: the whole strip of slides
+     slides left/right, instead of one image fading into the next. */
+  transition: transform 0.7s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+.slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.slideImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: min(560px, 90%);
+  margin: 0 0 6% 5%;
+  padding: 20px 24px;
+  background: rgba(15, 42, 74, 0.72);
+  border-left: 4px solid var(--color-gold-500);
+  color: #fff;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.captionHeading {
+  color: #fff;
+  font-size: clamp(1.1rem, 2.4vw, 1.8rem);
+  margin-bottom: 6px;
+}
+
+.captionSub {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--color-navy-100);
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--color-navy-900);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow:hover {
+  background: #fff;
+}
+
+.arrowLeft {
+  left: 16px;
+}
+
+.arrowRight {
+  right: 16px;
+}
+
+.dots {
+  position: absolute;
+  bottom: 14px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.dotActive {
+  background: var(--color-gold-500);
+  border-color: var(--color-gold-500);
+}
+
+@media (max-width: 700px) {
+  .arrow {
+    width: 34px;
+    height: 34px;
+    font-size: 1.2rem;
+  }
+  .caption {
+    padding: 14px 16px;
+  }
+}

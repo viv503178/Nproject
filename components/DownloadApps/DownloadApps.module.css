@@ -1,0 +1,53 @@
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 36px 20px;
+}
+
+.heading {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.linkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.link {
+  color: var(--color-navy-700);
+  font-weight: 600;
+  font-size: 0.92rem;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--color-navy-700);
+}
+
+.link:hover {
+  color: var(--color-gold-600);
+  border-color: var(--color-gold-600);
+}
+
+.appBadges {
+  display: flex;
+  gap: 14px;
+}
+
+.badgeLink {
+  display: inline-flex;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+@media (max-width: 700px) {
+  .section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
